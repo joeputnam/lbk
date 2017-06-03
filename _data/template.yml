@@ -1,0 +1,30 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: "583062"
+  secondary: "008080"  
+  secondary-dark: "212121"
+#  muted: "777777" 017c7c
+  muted: "017c7c" 
+
+# Font Families
+font:
+  primary: '"Aileron Black", sans-serif'
+  secondary: '"Aileron Regular",sans-serif'
+  semibolditalic: '"Aileron SemiBoldItalic",sans-serif'
+  blackitalic: '"Aileron BlackItalic",sans-serif'
+  light: '"Aileron Light",sans-serif'
+  thinitalic: '"Aileron ThinItalic",sans-serif'
+  heavyitalic: '"Aileron HeavyItalic",sans-serif'
+  ultralightitalic: '"Aileron UltraLightItalic",sans-serif'
+  light1: '"Aileron Light1",sans-serif'
+  bolditalic: '"Aileron BoldItalic",sans-serif'
+  black: '"Aileron Black",sans-serif'
+  thin: '"Aileron Thin",sans-serif'
+  italic: '"Aileron Italic",sans-serif'
+  bold: '"Aileron Bold",sans-serif'
+  semibold: '"Aileron SemiBold",sans-serif'
+  bold1: '"Aileron Bold1",sans-serif'
+  regular1: '"Aileron Regular1",sans-serif'
+  heavy: '"Aileron Heavy",sans-serif'
+  lightitalic: '"Aileron LightItalic",sans-serif'
+  ultralight: '"Aileron UltraLight",sans-serif'

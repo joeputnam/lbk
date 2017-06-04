@@ -4,65 +4,65 @@
 
 @font-face {
 	font-family: 'Aileron SemiBoldItalic';
-	src: url('/css/fonts/Aileron-SemiBoldItalic.eot');
-	src: local('/css/fonts/Aileron SemiBold Italic'), local('/css/fonts/Aileron-SemiBoldItalic'),
-		url('/css/fonts/Aileron-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('/css/fonts/Aileron-SemiBoldItalic.woff2') format('woff2'),
-		url('/css/fonts/Aileron-SemiBoldItalic.woff') format('woff'),
-		url('/css/fonts/Aileron-SemiBoldItalic.ttf') format('truetype'),
-		url('/css/fonts/Aileron-SemiBoldItalic.svg#Aileron-SemiBoldItalic') format('svg');
+	src: url('{{ site.baseurl }}/css/fonts/Aileron-SemiBoldItalic.eot');
+	src: local('{{ site.baseurl }}/css/fonts/Aileron SemiBold Italic'), local('{{ site.baseurl }}/css/fonts/Aileron-SemiBoldItalic'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-SemiBoldItalic.woff2') format('woff2'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-SemiBoldItalic.woff') format('woff'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-SemiBoldItalic.ttf') format('truetype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-SemiBoldItalic.svg#Aileron-SemiBoldItalic') format('svg');
 	font-weight: 600;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Aileron BlackItalic';
-	src: url('/css/fonts/Aileron-BlackItalic.eot');
-	src: local('/css/fonts/Aileron Black Italic'), local('/css/fonts/Aileron-BlackItalic'),
-		url('/css/fonts/Aileron-BlackItalic.eot?#iefix') format('embedded-opentype'),
-		url('/css/fonts/Aileron-BlackItalic.woff2') format('woff2'),
-		url('/css/fonts/Aileron-BlackItalic.woff') format('woff'),
-		url('/css/fonts/Aileron-BlackItalic.ttf') format('truetype'),
-		url('/css/fonts/Aileron-BlackItalic.svg#Aileron-BlackItalic') format('svg');
+	src: url('{{ site.baseurl }}/css/fonts/Aileron-BlackItalic.eot');
+	src: local('/css/fonts/Aileron Black Italic'), local('{{ site.baseurl }}/css/fonts/Aileron-BlackItalic'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-BlackItalic.woff2') format('woff2'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-BlackItalic.woff') format('woff'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-BlackItalic.ttf') format('truetype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-BlackItalic.svg#Aileron-BlackItalic') format('svg');
 	font-weight: 900;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Aileron Light';
-	src: url('/css/fonts/Aileron-Light.eot');
-	src: local('/css/fonts/Aileron Light'), local('/css/fonts/Aileron-Light'),
-		url('/css/fonts/Aileron-Light.eot?#iefix') format('embedded-opentype'),
-		url('/css/fonts/Aileron-Light.woff2') format('woff2'),
-		url('/css/fonts/Aileron-Light.woff') format('woff'),
-		url('/css/fonts/Aileron-Light.ttf') format('truetype'),
-		url('/css/fonts/Aileron-Light.svg#Aileron-Light') format('svg');
+	src: url('{{ site.baseurl }}/css/fonts/Aileron-Light.eot');
+	src: local('{{ site.baseurl }}/css/fonts/Aileron Light'), local('{{ site.baseurl }}/css/fonts/Aileron-Light'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Light.eot?#iefix') format('embedded-opentype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Light.woff2') format('woff2'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Light.woff') format('woff'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Light.ttf') format('truetype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Light.svg#Aileron-Light') format('svg');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Aileron ThinItalic';
-	src: url('/css/fonts/Aileron-ThinItalic.eot');
-	src: local('/css/fonts/Aileron Thin Italic'), local('/css/fonts/Aileron-ThinItalic'),
-		url('/css/fonts/Aileron-ThinItalic.eot?#iefix') format('embedded-opentype'),
-		url('/css/fonts/Aileron-ThinItalic.woff2') format('woff2'),
-		url('/css/fonts/Aileron-ThinItalic.woff') format('woff'),
-		url('/css/fonts/Aileron-ThinItalic.ttf') format('truetype'),
-		url('/css/fonts/Aileron-ThinItalic.svg#Aileron-ThinItalic') format('svg');
+	src: url('{{ site.baseurl }}/css/fonts/Aileron-ThinItalic.eot');
+	src: local('{{ site.baseurl }}/css/fonts/Aileron Thin Italic'), local('{{ site.baseurl }}/css/fonts/Aileron-ThinItalic'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-ThinItalic.woff2') format('woff2'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-ThinItalic.woff') format('woff'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-ThinItalic.ttf') format('truetype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-ThinItalic.svg#Aileron-ThinItalic') format('svg');
 	font-weight: 100;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Aileron Regular';
-	src: url('/css/fonts/Aileron-Regular.eot');
-	src: local('/css/fonts/Aileron Regular'), local('/css/fonts/Aileron-Regular'),
-		url('/css/fonts/Aileron-Regular.eot?#iefix') format('embedded-opentype'),
-		url('/css/fonts/Aileron-Regular.woff2') format('woff2'),
-		url('/css/fonts/Aileron-Regular.woff') format('woff'),
-		url('/css/fonts/Aileron-Regular.ttf') format('truetype'),
-		url('/css/fonts/Aileron-Regular.svg#Aileron-Regular') format('svg');
+	src: url('{{ site.baseurl }}/css/fonts/Aileron-Regular.eot');
+	src: local('{{ site.baseurl }}/css/fonts/Aileron Regular'), local('{{ site.baseurl }}/css/fonts/Aileron-Regular'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Regular.eot?#iefix') format('embedded-opentype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Regular.woff2') format('woff2'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Regular.woff') format('woff'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Regular.ttf') format('truetype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Regular.svg#Aileron-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

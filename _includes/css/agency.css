@@ -422,17 +422,21 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: {{ site.data.template.font.light }};
     color: #{{ site.data.template.color.primary }};
     background-image: url('img/white_logo_transparent_background.png');
     font-size: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-width: 70px;
-height: auto;
-	margin-top: 10px;
+    width: 67px;
+    height: 42px;
+    margin-top: 10px;
+    border-radius: 2px;
 }
+
+.navbar-default .navbar-brand:hover {
+	background-color: #{{ site.data.template.color.primary }};}
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -590,7 +594,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.semibold }};
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -914,6 +918,7 @@ section#contact {
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section#contact .section-heading {

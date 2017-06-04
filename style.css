@@ -6,18 +6,28 @@ header > div {
 	background-image: linear-gradient( to top, rgba(255, 255, 255, 1), rgba(0, 128, 128, 0.5));
 }
 
-#about {
-	background-image: url('img/texas.png');
+#about,
+#services {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 400px;
-	background-attachment: fixed;
 	padding: 0;
 }
 
-#about > div {
+#about > div,
+#services > div {
 	width: 100%;
 	height: 100%;
-	padding: 200px 0;
-	background-color: rgba(255, 255, 255, 0.74);
+	padding: 150px 0;
+	background-color: rgba(255, 255, 255, 0.83);
 } 
+#about {
+	background-image: url('img/texas.png');
+	background-attachment: fixed;
+}
+
+#services {
+	background-image: url('img/services.png');
+	background-attachment: scroll;
+/*	border: 20px solid #{{ site.data.template.color.primary }};*/
+}

@@ -121,13 +121,13 @@
 
 @font-face {
 	font-family: 'Aileron Black';
-	src: url('/css/fonts/Aileron-Black.eot');
-	src: local('/css/fonts/Aileron Black'), local('/css/fonts/Aileron-Black'),
-		url('/css/fonts/Aileron-Black.eot?#iefix') format('embedded-opentype'),
-		url('/css/fonts/Aileron-Black.woff2') format('woff2'),
-		url('/css/fonts/Aileron-Black.woff') format('woff'),
-		url('/css/fonts/Aileron-Black.ttf') format('truetype'),
-		url('/css/fonts/Aileron-Black.svg#Aileron-Black') format('svg');
+	src: url('{{ site.baseurl }}/css/fonts/Aileron-Black.eot');
+	src: local('{{ site.baseurl }}/css/fonts/Aileron Black'), local('{{ site.baseurl }}/css/fonts/Aileron-Black'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Black.eot?#iefix') format('embedded-opentype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Black.woff2') format('woff2'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Black.woff') format('woff'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Black.ttf') format('truetype'),
+		url('{{ site.baseurl }}/css/fonts/Aileron-Black.svg#Aileron-Black') format('svg');
 	font-weight: 900;
 	font-style: normal;
 }

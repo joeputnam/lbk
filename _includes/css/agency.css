@@ -429,9 +429,9 @@ fieldset[disabled] .btn-xl.active {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 67px;
-    height: 42px;
-    margin-top: 10px;
+    width: 100px;
+    height: 63px;
+/*    margin-top: 10px;*/
     border-radius: 2px;
 }
 
@@ -492,6 +492,21 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+@media(min-width: 320px) {
+
+	.navbar-default .navbar-brand {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+}
+
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -507,6 +522,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -515,8 +531,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-/*        background-color: #222;*/
-        background-color: teal;
+        background-color: #222;
+/*        background-color: teal;*/
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -537,10 +553,12 @@ header {
     -o-background-size: cover;
 }
 
+/*
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
+*/
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -866,6 +884,9 @@ section h3.section-subheading {
 }
 
 @media(min-width:1200px) {
+	header .intro-text {
+		padding-top: 15%;
+	}
     .timeline>li {
         min-height: 170px;
     }
@@ -915,10 +936,12 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+/*    background-image: url('{{ site.baseurl }}/img/map-image.png');*/
+    background-image: url('img/texas.png');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 500px;
 }
 
 section#contact .section-heading {

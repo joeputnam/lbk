@@ -8,7 +8,8 @@
 color:
 #  primary: fed136
   primary: "583062"
-  secondary: fec503   
+#  secondary: fec503   
+  secondary: "400080"   
   secondary-dark: 333
   muted: 777
 

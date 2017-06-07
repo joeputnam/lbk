@@ -6,7 +6,8 @@
 #  muted: "017c7c" 
   
 color:
-  primary: fed136
+#  primary: fed136
+  primary: "583062"
   secondary: fec503   
   secondary-dark: 333
   muted: 777

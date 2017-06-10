@@ -1,13 +1,14 @@
 #url: https://y7kim.github.io
-#baseurl: /agency-jekyll-theme/
+
+#url: http://www.lbkadvertising.com
 
 url:
 baseurl:
 
 # Site settings
 title: LBK
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: joe@lbkadvertising.com
+description: "LBK advertising. We’re a digital ad agency that specializes in increasing brand awareness, sales, and store visits through highly targeted digital ad campaigns."
 
 # Livereload
 livereload: true

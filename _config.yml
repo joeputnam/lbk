@@ -9,6 +9,7 @@ baseurl:
 title: "Lubbock's digital advertising experts | LBK advertising."
 email: joe@lbkadvertising.com
 description: "We run Facebook and Google ad campaigns to help local Lubbock businesses reach more customers and grow."
+footer_title: "LBK advertising"
 
 # Livereload
 livereload: true
